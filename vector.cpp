@@ -15,7 +15,7 @@ int main()
         cout<<i<<" ";   
        }   
     cout<<endl;   
-    for(int i=0;i<n;i++)
+    /*for(int i=0;i<n;i++)
        {
         int t;   
         cin>>t;   
@@ -24,6 +24,10 @@ int main()
     for(auto i:v)
        {
         cout<<i<<" ";   
-       }        
+       }    */    
+    for(auto i=v.begin();i!=v.end();i++)
+       {
+        cout<<*i<<" ";   
+       }   
     return 0;
 }
