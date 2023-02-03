@@ -28,6 +28,11 @@ int main()
     for(auto i=v.begin();i!=v.end();i++)
        {
         cout<<*i<<" ";   
-       }   
+       }  
+    cout<<endl;   
+    for(auto i=v.rbegin();i!=v.rend();i++)
+       {
+        cout<<*i<<" ";   
+       }    
     return 0;
 }
